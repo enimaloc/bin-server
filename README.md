@@ -1,12 +1,18 @@
+![PyPI](https://img.shields.io/pypi/v/rtd-bin-server)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/readthedocs-fr/bin-server/Continuous%20Integration?logo=github)
+![Discord](https://img.shields.io/discord/238975753969074177?logo=discord)
+![Read the Docs](https://img.shields.io/readthedocs/rtd-bin-server?logo=Read%20the%20Docs)
+![GitHub](https://img.shields.io/github/license/readthedocs-fr/bin-server)
+
 # bin-server
 
 Un outil pour héberger des snippets de code et les partager via une URL.
 
 ## Installation
 
-Le service nécessite une version de Python supérieure ou égale à Python 3.7 et un accès à un serveur Redis. Les archives du service sont hébergées sur l'index de paquet personnel de Dr Lazor et sont directement accessibles au moyen de `pip`.
+Le service nécessite une version de Python supérieure ou égale à Python 3.7 et un accès à un serveur Redis. Les archives sont hébergés sur [Pypi](https://pypi.org/project/rtd-bin-server/), vous pouvez installer la dernière version stable via `pip` :
 
-	$ pip install -i https://bin.drlazor.be bin
+	$ pip install rtd-bin-server
 
 Une fois installé, le module `bin` devient accessible et peut être directement lancé via la ligne de commande.
 
